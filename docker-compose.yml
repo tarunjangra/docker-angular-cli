@@ -1,0 +1,8 @@
+version: '3.3'
+
+services:
+  angular-cli:
+    image: tarunjangra/angular-cli
+    build: .
+    environment:
+      NODE_ENV: production
